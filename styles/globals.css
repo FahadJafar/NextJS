@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,12 +16,115 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+h2
+{
+  font-size:20px;
+  color:black;
+  font-weight:700;
 }
+
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: 'Open Sans Condensed';
+}
+Link {
+  
+  color:black;
+  text-decoration: none;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 10px 15px 15px 8px;
+
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 2px solid black;
+}
+nav a {
+  font-size:20px;
+  margin-left: 12px;
+}
+nav a.selected{
+  background-color:black;
+  display:block;
+  color:white;
+  padding:9px;
+}
+nav .Heading {
+  margin-right: auto;
+}
+
+footer {
+  display: block;
+
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  margin: 60px 15px 15px 8px;
+  border-top: 2px solid black;
+}
+.notfound
+{
+  display:flex;
+  flex-direction:column;
+}
+.notfound h2
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:45px;
+}
+.List
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+}
+.KK p
+{
+   display:block;
+   background-color:#e3dbdf;
+   width:210px;
+   border-radius:6px;
+  margin:5px;
+  font-size:20px;
+  padding:8px;
+}
+.List h2
+{
+  font-size:40px;
+  border-bottom:1px solid black;
+  margin-bottom:7px;
+}
+.Details
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.Details h2
+{
+  font-size:40px;
+  border-bottom:1px solid black;
+  margin-bottom:7px;
+}
+.Details p
+{
+  font-size:20px;
+  padding:12px;
+
+}
+
+
