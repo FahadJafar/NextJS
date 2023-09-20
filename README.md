@@ -1,3 +1,18 @@
+# Next.js Project
+
+This project is built using Next.js and serves as a platform for fetching data from an API and displaying it in the UI. It includes custom routing, a 404 page, and utilizes the `getStaticProps` function for server-side rendering.
+
+## Features
+- Utilizes Next.js for server-side rendering and client-side navigation.
+- Fetches data from an API and displays it in the UI.
+- Implements custom routing for different pages.
+- Includes a custom 404 page for handling invalid routes.
+
+## Technologies Used
+- Next.js
+- React
+- API 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
